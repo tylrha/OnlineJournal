@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJN|Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+</head>
+<body>
+    <header class="nav-bar">
+        <div class="header-wrap">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
+                <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
+                </svg>
+                <h1>|SJN|</h1>
+            </div>
+            <!-- <img id="logo" src="./img/logo2.png" alt="logo"> -->
+            <a href="./login.html"><button class="nav-btn">Log In</button></a>
+        </div>
+    </header>
+    <main>
+    <div class="container">
+        <div class="row justify-content-center form-wrap">
+            <div class="col-md-5">
+                <div class="text-center">
+                <h1>CREATE NEW ACCOUNT</h1>
+                <br>                
+            </div>
+                <form class="form-horizontal" role="form" action="forms.php" method="post">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="first_name" placeholder="Your email">
+                    </div>                
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="first_name" placeholder="Your firstname" >
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="last_name" placeholder="Your lastname">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="last_name" placeholder="enter password">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="repeat password">
+                    </div>
+                  
+                    <div class="text-center">
+                    <button class="btn btn-large btn-submit" type="submit" name="submit"><h4>Sign Up</h4></button>
+                    </div>
+                    <br>
+                <div>
+                    <span><i>have an account already?</i></span><a href="./login.html"> login</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div>
+            <p>&copy |SJN|@RocketSoftwareLtd</p>
+        </div>
+    </footer> 
+</body>
+</html>

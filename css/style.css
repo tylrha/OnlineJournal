@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-size: 14px;
+    font-family: 'Franklin 'Arial', Arial, sans-serif'; 
+    background:url("../img/j8.jpg");
+    background-size: cover;
+}
+
+header{
+    height: 12vh;
+    background: rgb(89, 121, 29);
+    
+}
+.nav-bar{
+    height:12vh;
+    background: rgb(89, 121, 29);
+    width: 100%;
+}
+
+.logo{
+    /* width: 15%; */
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-around; */
+}
+h1{
+    font-size: 3em;
+    font-weight:bolder;
+    color:rgb(225, 245, 240); 
+}
+.logo svg{
+    color: rgb(199, 214, 211) ;
+}
+.header-wrap{
+    width: 94%;
+    height: 12vh;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#clickStart {
+    padding: 10px 25px;
+    margin: 10px auto;
+    border-radius: 25px;    
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(225, 245, 240); 
+    background-color: rgb(116, 172, 12);
+    border: none;
+}
+.name-section{
+    width: 20%;
+}
+#name-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px;
+    margin: 5px;
+
+}
+#username{
+    font-size: 23px;
+    color: rgb(197, 167, 112);
+}
+.nav-btn{
+    height: 60px;
+    font-size: 1.4em;
+    color:rgb(225, 245, 240); 
+    background: none;
+    border: none;   
+}
+.header-wrap a{
+    font-size: 25px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 82vh;
+    /* position: relative; */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.hero{
+    width: 60%;
+    height: 50vh;
+    margin: auto;
+}
+.hero-text{
+    width: 80%;
+    margin: auto;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    line-height: 3em;
+    color: rgb(116, 172, 12);
+}
+
+h2{
+    font-weight: 600;
+    font-size: 55px;
+    margin: 20px auto;
+}
+h3{
+    font-weight: 600;
+    font-size: 40px;
+    margin: 5px auto;
+}
+.hero p{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px auto; 
+}
+footer{
+    height: 6vh;
+    background-color: rgb(89, 121, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+
+/* hover effects */
+
+.nav-btn:hover{
+    border: 2px solid rgb(199, 214, 211);
+    border-radius:5px;
+}
+#clickStart:hover{
+    background:rgb(199, 214, 211);
+    border: 2px solid rgb(116, 172, 12);
+    color: rgb(116, 172, 12);
+}
+
+/* signup and login forms */
+
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.form-wrap{
+    padding: 3em 0em 3em;
+    color: rgb(199, 214, 211) !important;
+    
+}
+.form-text{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: rgb(199, 214, 211);
+}
+.btn-submit{
+    color: rgb(199, 214, 211) !important;
+    background-color: rgb(89, 121, 29) !important ;
+}
+
